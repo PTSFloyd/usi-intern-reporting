@@ -1,0 +1,10 @@
+c:\users\shane\documents\visual studio 2015\Projects\InternshipApplication\InternshipApplication\bin\Debug\InternshipApplication.exe.config
+c:\users\shane\documents\visual studio 2015\Projects\InternshipApplication\InternshipApplication\bin\Debug\InternshipApplication.exe
+c:\users\shane\documents\visual studio 2015\Projects\InternshipApplication\InternshipApplication\bin\Debug\InternshipApplication.pdb
+c:\users\shane\documents\visual studio 2015\Projects\InternshipApplication\InternshipApplication\obj\Debug\InternshipApplication.csprojResolveAssemblyReference.cache
+c:\users\shane\documents\visual studio 2015\Projects\InternshipApplication\InternshipApplication\obj\Debug\InternshipApplication.Properties.Resources.resources
+c:\users\shane\documents\visual studio 2015\Projects\InternshipApplication\InternshipApplication\obj\Debug\InternshipApplication.csproj.GenerateResource.Cache
+c:\users\shane\documents\visual studio 2015\Projects\InternshipApplication\InternshipApplication\obj\Debug\InternshipApplication.exe
+c:\users\shane\documents\visual studio 2015\Projects\InternshipApplication\InternshipApplication\obj\Debug\InternshipApplication.pdb
+c:\users\shane\documents\visual studio 2015\Projects\InternshipApplication\InternshipApplication\obj\Debug\InternshipApplication.Main.resources
+c:\users\shane\documents\visual studio 2015\Projects\InternshipApplication\InternshipApplication\obj\Debug\InternshipApplication.NewStudent.resources
