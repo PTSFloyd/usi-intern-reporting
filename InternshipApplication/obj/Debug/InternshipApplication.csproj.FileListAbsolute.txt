@@ -8,14 +8,3 @@ c:\users\shane\documents\visual studio 2015\Projects\InternshipApplication\Inter
 c:\users\shane\documents\visual studio 2015\Projects\InternshipApplication\InternshipApplication\obj\Debug\InternshipApplication.pdb
 c:\users\shane\documents\visual studio 2015\Projects\InternshipApplication\InternshipApplication\obj\Debug\InternshipApplication.Main.resources
 c:\users\shane\documents\visual studio 2015\Projects\InternshipApplication\InternshipApplication\obj\Debug\InternshipApplication.NewStudent.resources
-C:\Users\Shane\Documents\usi-intern-reporting\InternshipApplication\bin\Debug\InternshipApplication.exe.config
-C:\Users\Shane\Documents\usi-intern-reporting\InternshipApplication\obj\Debug\InternshipApplication.exe
-C:\Users\Shane\Documents\usi-intern-reporting\InternshipApplication\obj\Debug\InternshipApplication.pdb
-C:\Users\Shane\Documents\usi-intern-reporting\InternshipApplication\bin\Debug\InternshipApplication.exe
-C:\Users\Shane\Documents\usi-intern-reporting\InternshipApplication\bin\Debug\InternshipApplication.pdb
-C:\Users\Shane\Documents\usi-intern-reporting\InternshipApplication\obj\Debug\InternshipApplication.csprojResolveAssemblyReference.cache
-C:\Users\Shane\Documents\usi-intern-reporting\InternshipApplication\obj\Debug\InternshipApplication.Main.resources
-C:\Users\Shane\Documents\usi-intern-reporting\InternshipApplication\obj\Debug\InternshipApplication.NewStudent.resources
-C:\Users\Shane\Documents\usi-intern-reporting\InternshipApplication\obj\Debug\InternshipApplication.Properties.Resources.resources
-C:\Users\Shane\Documents\usi-intern-reporting\InternshipApplication\obj\Debug\InternshipApplication.csproj.GenerateResource.Cache
-C:\Users\Shane\Documents\usi-intern-reporting\InternshipApplication\obj\Debug\InternshipApplication.StudentSearch.resources

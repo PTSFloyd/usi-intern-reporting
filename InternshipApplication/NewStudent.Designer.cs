@@ -28,7 +28,6 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(NewStudent));
             this.lbl_StudentID = new System.Windows.Forms.Label();
             this.txt_StudentID = new System.Windows.Forms.TextBox();
             this.txt_LastName = new System.Windows.Forms.TextBox();
@@ -54,15 +53,10 @@
             this.cb_major = new System.Windows.Forms.ComboBox();
             this.lbl_major = new System.Windows.Forms.Label();
             this.comboBox1 = new System.Windows.Forms.ComboBox();
-            this.lbl_additionalMajor = new System.Windows.Forms.Label();
+            this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.btn_cancel = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
-            this.lbl_gender = new System.Windows.Forms.Label();
-            this.comboBox2 = new System.Windows.Forms.ComboBox();
-            this.lbl_ethnicity = new System.Windows.Forms.Label();
-            this.comboBox3 = new System.Windows.Forms.ComboBox();
             this.SuspendLayout();
             // 
             // lbl_StudentID
@@ -101,7 +95,7 @@
             // 
             // txt_FirstName
             // 
-            this.txt_FirstName.Location = new System.Drawing.Point(579, 55);
+            this.txt_FirstName.Location = new System.Drawing.Point(558, 55);
             this.txt_FirstName.Name = "txt_FirstName";
             this.txt_FirstName.Size = new System.Drawing.Size(100, 20);
             this.txt_FirstName.TabIndex = 5;
@@ -110,7 +104,7 @@
             // 
             this.lbl_FirstName.AutoSize = true;
             this.lbl_FirstName.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl_FirstName.Location = new System.Drawing.Point(500, 59);
+            this.lbl_FirstName.Location = new System.Drawing.Point(479, 59);
             this.lbl_FirstName.Name = "lbl_FirstName";
             this.lbl_FirstName.Size = new System.Drawing.Size(76, 16);
             this.lbl_FirstName.TabIndex = 4;
@@ -223,7 +217,7 @@
             // 
             this.lbl_school.AutoSize = true;
             this.lbl_school.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl_school.Location = new System.Drawing.Point(59, 240);
+            this.lbl_school.Location = new System.Drawing.Point(59, 204);
             this.lbl_school.Name = "lbl_school";
             this.lbl_school.Size = new System.Drawing.Size(52, 16);
             this.lbl_school.TabIndex = 18;
@@ -232,7 +226,7 @@
             // cb_school
             // 
             this.cb_school.FormattingEnabled = true;
-            this.cb_school.Location = new System.Drawing.Point(117, 235);
+            this.cb_school.Location = new System.Drawing.Point(117, 199);
             this.cb_school.Name = "cb_school";
             this.cb_school.Size = new System.Drawing.Size(121, 21);
             this.cb_school.TabIndex = 19;
@@ -240,7 +234,7 @@
             // cb_additionalSchool
             // 
             this.cb_additionalSchool.FormattingEnabled = true;
-            this.cb_additionalSchool.Location = new System.Drawing.Point(388, 235);
+            this.cb_additionalSchool.Location = new System.Drawing.Point(388, 199);
             this.cb_additionalSchool.Name = "cb_additionalSchool";
             this.cb_additionalSchool.Size = new System.Drawing.Size(121, 21);
             this.cb_additionalSchool.TabIndex = 21;
@@ -249,7 +243,7 @@
             // 
             this.lbl_additionalSchool.AutoSize = true;
             this.lbl_additionalSchool.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl_additionalSchool.Location = new System.Drawing.Point(269, 240);
+            this.lbl_additionalSchool.Location = new System.Drawing.Point(269, 204);
             this.lbl_additionalSchool.Name = "lbl_additionalSchool";
             this.lbl_additionalSchool.Size = new System.Drawing.Size(113, 16);
             this.lbl_additionalSchool.TabIndex = 20;
@@ -258,7 +252,7 @@
             // cb_major
             // 
             this.cb_major.FormattingEnabled = true;
-            this.cb_major.Location = new System.Drawing.Point(117, 271);
+            this.cb_major.Location = new System.Drawing.Point(117, 235);
             this.cb_major.Name = "cb_major";
             this.cb_major.Size = new System.Drawing.Size(121, 21);
             this.cb_major.TabIndex = 23;
@@ -267,7 +261,7 @@
             // 
             this.lbl_major.AutoSize = true;
             this.lbl_major.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl_major.Location = new System.Drawing.Point(67, 276);
+            this.lbl_major.Location = new System.Drawing.Point(67, 240);
             this.lbl_major.Name = "lbl_major";
             this.lbl_major.Size = new System.Drawing.Size(44, 16);
             this.lbl_major.TabIndex = 22;
@@ -276,20 +270,20 @@
             // comboBox1
             // 
             this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Location = new System.Drawing.Point(380, 271);
+            this.comboBox1.Location = new System.Drawing.Point(380, 235);
             this.comboBox1.Name = "comboBox1";
             this.comboBox1.Size = new System.Drawing.Size(121, 21);
             this.comboBox1.TabIndex = 25;
             // 
-            // lbl_additionalMajor
+            // label1
             // 
-            this.lbl_additionalMajor.AutoSize = true;
-            this.lbl_additionalMajor.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl_additionalMajor.Location = new System.Drawing.Point(269, 276);
-            this.lbl_additionalMajor.Name = "lbl_additionalMajor";
-            this.lbl_additionalMajor.Size = new System.Drawing.Size(105, 16);
-            this.lbl_additionalMajor.TabIndex = 24;
-            this.lbl_additionalMajor.Text = "Additional Major:";
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(269, 240);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(105, 16);
+            this.label1.TabIndex = 24;
+            this.label1.Text = "Additional Major:";
             // 
             // label2
             // 
@@ -304,7 +298,7 @@
             // btn_cancel
             // 
             this.btn_cancel.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btn_cancel.Location = new System.Drawing.Point(12, 474);
+            this.btn_cancel.Location = new System.Drawing.Point(16, 280);
             this.btn_cancel.Name = "btn_cancel";
             this.btn_cancel.Size = new System.Drawing.Size(95, 36);
             this.btn_cancel.TabIndex = 27;
@@ -314,74 +308,23 @@
             // button1
             // 
             this.button1.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.Location = new System.Drawing.Point(113, 474);
+            this.button1.Location = new System.Drawing.Point(117, 280);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(95, 36);
             this.button1.TabIndex = 28;
             this.button1.Text = "Continue >>>";
             this.button1.UseVisualStyleBackColor = true;
             // 
-            // button2
-            // 
-            this.button2.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button2.Location = new System.Drawing.Point(214, 474);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(95, 36);
-            this.button2.TabIndex = 31;
-            this.button2.Text = "Clear";
-            this.button2.UseVisualStyleBackColor = true;
-            // 
-            // lbl_gender
-            // 
-            this.lbl_gender.AutoSize = true;
-            this.lbl_gender.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl_gender.Location = new System.Drawing.Point(59, 204);
-            this.lbl_gender.Name = "lbl_gender";
-            this.lbl_gender.Size = new System.Drawing.Size(54, 16);
-            this.lbl_gender.TabIndex = 32;
-            this.lbl_gender.Text = "Gender:";
-            // 
-            // comboBox2
-            // 
-            this.comboBox2.FormattingEnabled = true;
-            this.comboBox2.Location = new System.Drawing.Point(119, 199);
-            this.comboBox2.Name = "comboBox2";
-            this.comboBox2.Size = new System.Drawing.Size(120, 21);
-            this.comboBox2.TabIndex = 33;
-            // 
-            // lbl_ethnicity
-            // 
-            this.lbl_ethnicity.AutoSize = true;
-            this.lbl_ethnicity.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl_ethnicity.Location = new System.Drawing.Point(268, 204);
-            this.lbl_ethnicity.Name = "lbl_ethnicity";
-            this.lbl_ethnicity.Size = new System.Drawing.Size(63, 16);
-            this.lbl_ethnicity.TabIndex = 34;
-            this.lbl_ethnicity.Text = "Ethnicity:";
-            // 
-            // comboBox3
-            // 
-            this.comboBox3.FormattingEnabled = true;
-            this.comboBox3.Location = new System.Drawing.Point(337, 199);
-            this.comboBox3.Name = "comboBox3";
-            this.comboBox3.Size = new System.Drawing.Size(120, 21);
-            this.comboBox3.TabIndex = 35;
-            // 
             // NewStudent
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(754, 522);
-            this.Controls.Add(this.comboBox3);
-            this.Controls.Add(this.lbl_ethnicity);
-            this.Controls.Add(this.comboBox2);
-            this.Controls.Add(this.lbl_gender);
-            this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.btn_cancel);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.comboBox1);
-            this.Controls.Add(this.lbl_additionalMajor);
+            this.Controls.Add(this.label1);
             this.Controls.Add(this.cb_major);
             this.Controls.Add(this.lbl_major);
             this.Controls.Add(this.cb_additionalSchool);
@@ -406,7 +349,6 @@
             this.Controls.Add(this.lbl_LastName);
             this.Controls.Add(this.txt_StudentID);
             this.Controls.Add(this.lbl_StudentID);
-            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "NewStudent";
             this.Text = "Internship Report System";
             this.ResumeLayout(false);
@@ -441,14 +383,9 @@
         private System.Windows.Forms.ComboBox cb_major;
         private System.Windows.Forms.Label lbl_major;
         private System.Windows.Forms.ComboBox comboBox1;
-        private System.Windows.Forms.Label lbl_additionalMajor;
+        private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Button btn_cancel;
         private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Label lbl_gender;
-        private System.Windows.Forms.ComboBox comboBox2;
-        private System.Windows.Forms.Label lbl_ethnicity;
-        private System.Windows.Forms.ComboBox comboBox3;
     }
 }
